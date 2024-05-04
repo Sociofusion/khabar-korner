@@ -484,4 +484,10 @@ html{overflow-x:hidden;}
 	.blue_wrap{
 		padding:0 !important;
 	}
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent;
+    }
+    .nav-wrap div#bs-example-navbar-collapse-1 {
+        padding-top: 70px;
+    }
 }
