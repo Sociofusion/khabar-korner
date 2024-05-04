@@ -476,4 +476,6 @@ html{overflow-x:hidden;}
     .footer_wrap p {
         width: 100%;
     }
+	.blue_wrap{
+		padding:0 !important;
 }
