@@ -479,3 +479,7 @@ html{overflow-x:hidden;}
 	.blue_wrap{
 		padding:0 !important;
 }
+	.navbar-nav {
+    margin: 40px -15px;
+}
+}
