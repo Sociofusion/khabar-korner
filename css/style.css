@@ -382,7 +382,7 @@ html{overflow-x:hidden;}
     padding-bottom: 20px;
     margin:0;
 }
-.footer_form select,.footer_form .form-control{border:1px #acc2e2 solid; border-radius:0; color:#FFF; font-size:14px; opacity:1;}
+.footer_form select,.footer_form .form-control{border:1px #acc2e2 solid; border-radius:0; color:#525151; font-size:14px; opacity:1;}
 .footer_form button {
     background: none;
     border: 1px #acc2e2 solid;
