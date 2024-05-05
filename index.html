@@ -213,20 +213,22 @@
 			<div class="row">
 				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 footer_form">
 					<h3>Contact Us</h3>
+					<form action="mail_handler.php" method="post">
 						<div class="row">
-							<div class="col-lg-6 col-xs-12 form-group"><input type="text" class="form-control" placeholder="First Name"></div>
-							<div class="col-lg-6 col-xs-12 form-group"><input type="text" class="form-control" placeholder="Last Name"></div>
+							<div class="col-lg-6 col-xs-12 form-group"><input type="text" name="name" class="form-control" placeholder="Name"></div>
+							<div class="col-lg-6 col-xs-12 form-group"><input type="tel" name="phone" class="form-control" placeholder="Phone Number"></div>
 						</div>
 						<div class="row">
-							<div class="col-lg-6 col-xs-12 form-group"><input type="text" class="form-control" placeholder="Your Email"></div>
-							<div class="col-lg-6 col-xs-12 form-group"><input type="text" class="form-control" placeholder="City"></div>
+							<div class="col-lg-6 col-xs-12 form-group"><input type="email" name="email" class="form-control" placeholder="Your Email"></div>
+							<div class="col-lg-6 col-xs-12 form-group"><input type="text" name="city" class="form-control" placeholder="City"></div>
 						</div>
 						<div class="row">
-							<div class="col-lg-12 col-xs-12 form-group"><textarea class="form-control" placeholder="Your Query"></textarea></div>
+							<div class="col-lg-12 col-xs-12 form-group"><textarea class="form-control" name="query" placeholder="Your Query"></textarea></div>
 						</div>
 						<div class="row">
-							<div class="col-lg-6 col-xs-12"><button type="submit" class="btn btn-primary">Submit</button></div>
+							<div class="col-lg-6 col-xs-12"><button type="submit" name="submit" value="Submit" class="btn btn-primary">Submit</button></div>
 						</div>
+					</form>
 				</div>
 				
 				<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 accordion_box">
