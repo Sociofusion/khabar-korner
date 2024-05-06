@@ -435,6 +435,7 @@ html{overflow-x:hidden;}
 	.accordion_box p {
         color: #e56135;
         font-size: 14px;
+        font-weight: 700;
     }
 	.accordion_box h3 {
         color: #082256;
