@@ -346,6 +346,9 @@ html{overflow-x:hidden;}
     color: #FFF;
     line-height: 10px;
 }
+.feature_wrap ul li::marker {
+    color: rgb(229, 97, 53);
+}
 /*Count CSS ends here */
 .wrapper9{background-color:#fcfcfc; padding-bottom:50px; border-bottom:1px #e0e0e0 solid;}
 .wrapper9 p{color:#888; text-align:left;}
